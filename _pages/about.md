@@ -1,8 +1,8 @@
 ---
 layout: about
-title: about
+title: <strong>Hui Wang</strong>
 permalink: /
-subtitle: Shanghai Jiao Tong University. China. Contacts. Moto. Etc.
+subtitle: Shanghai Jiao Tong University. China.
 
 profile:
   align: right
