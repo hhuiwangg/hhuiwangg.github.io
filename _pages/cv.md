@@ -4,15 +4,17 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: example_pdf.pdf
-description: This is a description of the page. You can modify it in 'pages/_cv.md'. You can also change or remove the top pdf download button.
+# cv_pdf: example_pdf.pdf
+description: 
 toc:
   sidebar: left
 ---
 
 
 ## Education
+
 ======
+
 * Ph.D in Computer Science, Shanghai Jiao Tong University, 2021.4-2025.4 (expected)
   * Research focus: physics-based animation for computer graphics, neural representation
   * Advisor: Xubo Yang
@@ -25,22 +27,26 @@ toc:
 
 
 ## Publications
+
 ====
+
 **Submitted Manuscripts:**
-* Hui Wang, Xubo Yang, and Bo Zhu. A Moving Least-Squares/Level-Set Particle Method for Bubble and Foam Simulation. IEEE Transactions on Visualization and Computer Graphics, Under Review
-* Hui Wang, Yuwei Xiao, Yankai Mao, Xubo Yang, and Bo Zhu. A Two-Way Coupling Approach for Simulating Bouncing Droplets. Journal of Computational Physics, Under Review 
+* **Hui Wang**, Xubo Yang, and Bo Zhu. A Moving Least-Squares/Level-Set Particle Method for Bubble and Foam Simulation. IEEE Transactions on Visualization and Computer Graphics, Under Review
+* **Hui Wang**, Yuwei Xiao, Yankai Mao, Xubo Yang, and Bo Zhu. A Two-Way Coupling Approach for Simulating Bouncing Droplets. Journal of Computational Physics, Under Review 
 
 **Conference Proceedings and Journal Articles:**
-* Hui Wang, Yongxu Jin, Anqi Luo, Xubo Yang, and Bo Zhu. Codimensional Surface Tension Flow Using
+* **Hui Wang**, Yongxu Jin, Anqi Luo, Xubo Yang, and Bo Zhu. Codimensional Surface Tension Flow Using
 Moving-least-squares Particles. ACM Transactions on Graphics (SIGGRAPH), 2020.
-* Xiangyun Xiao, Hui Wang, and Xubo Yang. A CNN-based Flow Correction Method for Fast Preview. Computer Graphics Forum (Eurographics), 2019.
-* Xiangyun Xiao, Yanqing Zhou, Hui Wang, and Xubo Yang. A Novel CNN-Based Poisson Solver for Fluid Simulation. IEEE Transactions on Visualization and Computer Graphics, 2020
+* Xiangyun Xiao, **Hui Wang**, and Xubo Yang. A CNN-based Flow Correction Method for Fast Preview. Computer Graphics Forum (Eurographics), 2019.
+* Xiangyun Xiao, Yanqing Zhou, **Hui Wang**, and Xubo Yang. A Novel CNN-Based Poisson Solver for Fluid Simulation. IEEE Transactions on Visualization and Computer Graphics, 2020
 
 **Thesis:**
-* Hui Wang. Particle-based Codimensional Fluid Simulation. M.E. Thesis, Shanghai Jiao Tong University, 2021
+* **Hui Wang**. Particle-based Codimensional Fluid Simulation. M.E. Thesis, Shanghai Jiao Tong University, 2021
 
 ## Additional Experience and Awards
+
 ======
+
 **Awards**
 * Outstanding Graduate Award (Shanghai), 2021
 * Outstanding Master’s Thesis Award (Chinese Institute of Electronics), 2021
