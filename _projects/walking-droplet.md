@@ -23,11 +23,11 @@ This paper presents a two-way coupling approach to simulate bouncing droplet phe
 <br>
 
 ### Video
-<div class="row">
-    <div class="card-img col">
-        {% include video.html path="https://www.youtube.com/embed/WxcVmrmByVU?si=fm79BnCM6AcivJTh" class="img-fluid rounded z-depth-1" %}
-    </div>
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WxcVmrmByVU?si=fm79BnCM6AcivJTh" allowfullscreen></iframe>
 </div>
+
 
 <br>
 

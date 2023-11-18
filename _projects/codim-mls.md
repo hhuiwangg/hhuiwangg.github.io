@@ -24,22 +24,6 @@ We propose a new Eulerian-Lagrangian approach to simulate the various surface te
 
 ### Video
 
-<!-- <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <iframe 
-        src="https://www.youtube.com/embed/ugJhLMlyctc" 
-        scrolling="no" frameborder="0"
-        style="position:relative; top:0px; width: 80%; object-fit: contain"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-        </iframe>
-    </div>
-</div> -->
-
-
-<!-- <div class="col">
-    {% include video.html path="https://www.youtube.com/embed/ugJhLMlyctc" title="example video" class="img-fluid rounded z-depth-1" weight="80%" height="80%" %}
-</div> -->
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ugJhLMlyctc" allowfullscreen></iframe>
