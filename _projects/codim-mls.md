@@ -37,8 +37,12 @@ We propose a new Eulerian-Lagrangian approach to simulate the various surface te
 </div> -->
 
 
-<div class="col">
+<!-- <div class="col">
     {% include video.html path="https://www.youtube.com/embed/ugJhLMlyctc" title="example video" class="img-fluid rounded z-depth-1" weight="80%" height="80%" %}
+</div> -->
+
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ugJhLMlyctc" allowfullscreen></iframe>
 </div>
 
 
