@@ -30,7 +30,7 @@ This paper presents a two-way coupling approach to simulate bouncing droplet phe
         <iframe 
         src="https://www.youtube.com/embed/WxcVmrmByVU?si=fm79BnCM6AcivJTh" 
         scrolling="no" frameborder="0"
-        style="position:relative; height: 100%; width: 100vh;"
+        style="position:relative; height: 100vh; width: 100%;"
         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
         </iframe>
