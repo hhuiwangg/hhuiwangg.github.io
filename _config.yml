@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title:  Hui Wang # the website title (if blank, full name will be used instead)
+title:  blank # the website title (if blank, full name will be used instead)
 first_name: Hui
 middle_name: 
 last_name: Wang
@@ -271,8 +271,8 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 
 scholar:
 
-  last_name: [Wang]
-  first_name: [Hui]
+  last_name: Wang
+  first_name: Hui
 
   style: apa
   locale: en
@@ -356,7 +356,7 @@ jekyll-diagrams:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true  # enables google analytics
 enable_cronitor_analytics: false  # enables cronitor RUM analytics
 enable_google_verification: false  # enables google site verification
 enable_bing_verification:   false  # enables bing site verification

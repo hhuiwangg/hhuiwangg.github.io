@@ -1,6 +1,6 @@
 ---
 layout: about
-title: <strong>Hui Wang</strong>
+title: about
 permalink: /
 subtitle: wanghehv@sjtu.edu.cn
 
