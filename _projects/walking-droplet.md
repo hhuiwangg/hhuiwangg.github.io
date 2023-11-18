@@ -14,14 +14,30 @@ related_publications: wangwalking
     </div>
 </div>
 
+<br>
+
 ### Abstract
 
 This paper presents a two-way coupling approach to simulate bouncing droplet phenomena by incorporating the lubricated thin aerodynamic gap between fluid volumes. At the heart of our framework lies a cut-cell representation of the thin air film between colliding liquid fluid volumes. The air pressures within the thin film, modeled using a reduced fluid model based on the lubrication theory, are coupled with the volumetric liquid pressures by the gradient across the liquid-air interfaces and solved in a monolithic two-way coupling system. Our method can accurately solve liquid-liquid interaction with air films without adaptive grid refinements, enabling accurate simulation of many novel surface-tension-driven phenomena such as droplet collisions, bouncing droplets, and promenading pairs.
 
+<br>
 
 ### Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WxcVmrmByVU?si=fm79BnCM6AcivJTh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe 
+        src="https://www.youtube.com/embed/WxcVmrmByVU?si=fm79BnCM6AcivJTh" 
+        scrolling="no" frameborder="0"
+        style="position:absolute; top:0px; height: 100%; width: 100vh;"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        </iframe>
+    </div>
+</div>
+
+<br>
 
 ### Links
 
@@ -29,9 +45,11 @@ This paper presents a two-way coupling approach to simulate bouncing droplet phe
 [[Preprint with arxiv template]](/assets/pdf/Walking_Droplet___Arxiv.pdf)
 [[Youtube]](https://www.youtube.com/watch?v=WxcVmrmByVU)
 
+<br>
+
 ### Citation
 
-
 <pre>
-Wang, Hui and Xiao, Yuwei and Mao, Yankai and Xiong, Shiying and Yang, Xubo and Zhu, Bo, A Two-Way Coupling Approach for Simulating Bouncing Droplets. Available at SSRN: https://ssrn.com/abstract=4579924 or http://dx.doi.org/10.2139/ssrn.4579924
+Wang, Hui and Xiao, Yuwei and Mao, Yankai and Xiong, Shiying and Yang, Xubo and Zhu, Bo, A Two-Way Coupling Approach for Simulating Bouncing Droplets. 
+Available at SSRN: https://ssrn.com/abstract=4579924 or http://dx.doi.org/10.2139/ssrn.4579924
 </pre>

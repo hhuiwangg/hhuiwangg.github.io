@@ -17,6 +17,8 @@ related_publications: xiao2019cnn
     Shape correction examples for three-dimensional case. Our ML-based method corrects the overall shape of a low-resolution simulation to closely follow the shape of the high-resolution version.
 </div>
 
+<br>
+
 ### Abstract
 
 Eulerian-based smoke simulations are sensitive to the initial parameters and grid resolutions. Due to the numerical dissipation on different levels of the grid and the nonlinearity of the governing equations, the differences in simulation resolutions will result in different results. This makes it challenging for artists to preview the animation results based on low-resolution simulations. In this paper, we propose a learning-based flow correction method for fast previewing based on low-resolution smoke simulations. The main components of our approach lie in a deep convolutional neural network, a grid-layer feature vector and a special loss function. We provide a novel matching model to represent the relationship between low-resolution and high-resolution smoke simulations and correct the overall shape of a low-resolution simulation to closely follow the shape of a high-resolution down-sampled version. We introduce the grid-layer concept to effectively represent the 3D fluid shape, which can also reduce the input and output dimensions. We design a special loss function for the fluid divergence-free constraint in the neural network training process. We have demonstrated the efficacy and the generality of our approach by simulating a diversity of animations deviating from the original training set. In addition, we have integrated our approach into an existing fluid simulation framework to showcase its wide applications.
@@ -30,12 +32,15 @@ allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 allowfullscreen>
 </iframe> -->
 
+<br>
+
 ### Links
 
 [[DOI]](https://doi.org/10.1111/cgf.13649)
 
-### Bibtex
+<br>
 
+### Bibtex
 
 <pre>
 @article{10.1111:cgf.13649,
