@@ -2,7 +2,7 @@
 layout: about
 title: <strong>Hui Wang</strong>
 permalink: /
-subtitle: wanghehv at sjtu.edu.cn
+subtitle: wanghehv@sjtu.edu.cn
 
 profile:
   align: right
