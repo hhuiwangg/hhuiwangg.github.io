@@ -3,82 +3,42 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
+@article{xiao2020novel,
+  abbr={CnnPoisson},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
+  title={A Novel CNN-Based Poisson Solver for Fluid Simulation}, 
+  author={Xiao, Xiangyun and Zhou, Yanqing and Wang, Hui and Yang, Xubo},
+  abstract={Solving a large-scale Poisson system is computationally expensive for most of the Eulerian fluid simulation applications. We propose a novel machine learning-based approach to accelerate this process. At the heart of our approach is a deep convolutional neural network (CNN), with the capability of predicting the solution (pressure) of a Poisson system given the discretization structure and the intermediate velocities as input. Our system consists of four main components, namely, a deep neural network to solve the large linear equations, a geometric structure to describe the spatial hierarchies of the input vector, a Principal Component Analysis (PCA) process to reduce the dimension of input in training, and a novel loss function to control the incompressibility constraint. We have demonstrated the efficacy of our approach by simulating a variety of high-resolution smoke and liquid phenomena. In particular, we have shown that our approach accelerates the projection step in a conventional Eulerian fluid simulator by two orders of magnitude. In addition, we have also demonstrated the generality of our approach by producing a diversity of animations deviating from the original datasets.},
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  year={2020},
+  volume={26},
+  number={3},
+  pages={1454-1465},
+  doi={10.1109/TVCG.2018.2873375},
+  url={https://ieeexplore.ieee.org/document/8478400},
+  html={https://ieeexplore.ieee.org/document/8478400},
+  website={/projects/cnn-poisson},
+  preview={cnn-poisson-representative.png},
   dimensions={true},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
+@article{xiao2019cnn,
+  abbr={FlowCorrect},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+  title={A CNN-based Flow Correction Method for Fast Preview}, 
+  author={Xiao, Xiangyun and Wang, Hui and Yang, Xubo},
+  abstract={Abstract Eulerian-based smoke simulations are sensitive to the initial parameters and grid resolutions. Due to the numerical dissipation on different levels of the grid and the nonlinearity of the governing equations, the differences in simulation resolutions will result in different results. This makes it challenging for artists to preview the animation results based on low-resolution simulations. In this paper, we propose a learning-based flow correction method for fast previewing based on low-resolution smoke simulations. The main components of our approach lie in a deep convolutional neural network, a grid-layer feature vector and a special loss function. We provide a novel matching model to represent the relationship between low-resolution and high-resolution smoke simulations and correct the overall shape of a low-resolution simulation to closely follow the shape of a high-resolution down-sampled version. We introduce the grid-layer concept to effectively represent the 3D fluid shape, which can also reduce the input and output dimensions. We design a special loss function for the fluid divergence-free constraint in the neural network training process. We have demonstrated the efficacy and the generality of our approach by simulating a diversity of animations deviating from the original training set. In addition, we have integrated our approach into an existing fluid simulation framework to showcase its wide applications.},
+  journal = {Computer Graphics Forum},
+  volume = {38},
+  number = {2},
+  pages = {431-440},
+  year = {2019}
+  doi = {https://doi.org/10.1111/cgf.13649},
+  url = {https://onlinelibrary.wiley.com/doi/abs/10.1111/cgf.13649},
+  eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.13649},
+  website={/projects/flow-correct},
+  preview={flow-correct-representative.png},
+  dimensions={true},
+  selected={true}
 }
