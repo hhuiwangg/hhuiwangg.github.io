@@ -8,7 +8,11 @@ category: research
 related_publications: wang2020codimensional
 ---
 
-![representative](/assets/img/codim-mls/representative.jpg)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/codim-mls/representative.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 ### Abstract
 
@@ -16,12 +20,17 @@ We propose a new Eulerian-Lagrangian approach to simulate the various surface te
 
 ### Video
 
-<iframe width="560" height="315"
-src="https://www.youtube.com/embed/ugJhLMlyctc" 
-frameborder="0" 
-allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
-allowfullscreen>
-</iframe>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <iframe 
+        src="https://www.youtube.com/embed/ugJhLMlyctc" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+        </iframe>
+    </div>
+</div>
+
 
 ### Links
 

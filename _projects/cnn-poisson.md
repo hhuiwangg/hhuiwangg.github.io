@@ -8,9 +8,14 @@ category: research
 related_publications: xiao2020novel
 ---
 
-![representative](/assets/img/cnn-poisson/representative.png)
-
-Comparisons with ICPCG method.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/cnn-poisson/representative.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Comparisons with ICPCG method.
+</div>
 
 ### Abstract
 
