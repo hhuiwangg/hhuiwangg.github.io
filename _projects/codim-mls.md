@@ -1,14 +1,14 @@
 ---
 layout: page
-title: Codimensional Fluid
-description: 
+title: Codimensional Particle Fluid
+description: A novel Eulerian-Lagrangian approach to simulate various codimensional surface tension phenomena characterized by volume, thin sheets, thin filaments, and points using Moving-Least-Squares (MLS) particles
 img: assets/img/publication_preview/codim-mls-preview.jpg
 importance: 1
 category: research
 related_publications: wang2020codimensional
 ---
 
-![representative](/assets/images/codim-mls/representative.jpg)
+![representative](/assets/img/codim-mls/representative.jpg)
 
 ### Abstract
 

@@ -1,16 +1,16 @@
 ---
 layout: page
-title: Flow Correction
-description: 
+title: CNN Flow Correction
+description: A CNN-based method to correct the overall shape of a low-resolution simulation to closely follow the shape of the high-resolution version
 img: assets/img/publication_preview/flow-correct-preview.jpg
 importance: 1
 category: research
 related_publications: xiao2019cnn
 ---
 
-![representative](/assets/images/flow-correct/representative.png)
+![representative](/assets/img/flow-correct/representative.png)
 
-Shape correction examples for three-dimensional case. Our ML-based method correct the overall shape of a low-resolution simulation to closely follow the shape of the high-resolution version.
+Shape correction examples for three-dimensional case. Our ML-based method corrects the overall shape of a low-resolution simulation to closely follow the shape of the high-resolution version.
 
 ### Abstract
 

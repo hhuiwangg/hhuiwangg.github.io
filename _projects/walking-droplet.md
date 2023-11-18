@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Walking Droplet
-description: 
+title: Walking Droplet Simulation
+description: A two-way coupling cut-cell approach to simulate bouncing droplet phenomena by incorporating the lubricated thin aerodynamic gap between fluid volumes
 img: assets/img/publication_preview/walking-droplet-preview.jpg
 importance: 1
 category: research
@@ -9,7 +9,7 @@ related_publications: wangwalking
 ---
 
 
-![representative](/assets/images/walking-droplet/representative.jpg)
+![representative](/assets/img/walking-droplet/representative.jpg)
 
 ### Abstract
 

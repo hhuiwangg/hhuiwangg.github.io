@@ -1,14 +1,14 @@
 ---
 layout: page
 title: CNN Poisson Solver
-description: 
+description: A CNN-based Poisson solver to accelerate fluid simulation
 img: assets/img/publication_preview/cnn-poisson-preview.png
 importance: 1
 category: research
 related_publications: xiao2020novel
 ---
 
-![representative](/assets/images/cnn-poisson/representative.png)
+![representative](/assets/img/cnn-poisson/representative.png)
 
 Comparisons with ICPCG method.
 
