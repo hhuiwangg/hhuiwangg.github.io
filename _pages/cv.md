@@ -13,8 +13,6 @@ toc:
 
 ## Education
 
-======
-
 * Ph.D in Computer Science, Shanghai Jiao Tong University, 2021.4-2025.4 (expected)
   * Research focus: physics-based animation for computer graphics, neural representation
   * Advisor: Xubo Yang
@@ -28,11 +26,9 @@ toc:
 
 ## Publications
 
-====
-
-**Submitted Manuscripts:**
-* **Hui Wang**, Xubo Yang, and Bo Zhu. A Moving Least-Squares/Level-Set Particle Method for Bubble and Foam Simulation. IEEE Transactions on Visualization and Computer Graphics, Under Review
-* **Hui Wang**, Yuwei Xiao, Yankai Mao, Xubo Yang, and Bo Zhu. A Two-Way Coupling Approach for Simulating Bouncing Droplets. Journal of Computational Physics, Under Review 
+**Preprint:**
+* **Hui Wang**, Xubo Yang, and Bo Zhu. A Moving Least-Squares/Level-Set Particle Method for Bubble and Foam Simulation. Preprint.
+* **Hui Wang**, Yuwei Xiao, Yankai Mao, Xubo Yang, and Bo Zhu. A Two-Way Coupling Approach for Simulating Bouncing Droplets. Preprint.
 
 **Conference Proceedings and Journal Articles:**
 * **Hui Wang**, Yongxu Jin, Anqi Luo, Xubo Yang, and Bo Zhu. Codimensional Surface Tension Flow Using
@@ -44,8 +40,6 @@ Moving-least-squares Particles. ACM Transactions on Graphics (SIGGRAPH), 2020.
 * **Hui Wang**. Particle-based Codimensional Fluid Simulation. M.E. Thesis, Shanghai Jiao Tong University, 2021
 
 ## Additional Experience and Awards
-
-======
 
 **Awards**
 * Outstanding Graduate Award (Shanghai), 2021
