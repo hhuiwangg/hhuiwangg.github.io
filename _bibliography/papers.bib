@@ -3,11 +3,27 @@
 
 @string{aps = {American Physical Society,}}
 
+@inproceedings{wang2023foveated,
+  abbr={FoveatedFluid},
+  bibtex_show={true},
+  author = {Yue, Wang and Zhang, Yan and Yang, Xuanhui and Wang, Hui and Liu, Dongxu and Yang, Xubo},
+  booktitle={IEEE VR},
+  title = {Foveated Fluid Animation in Virtual Reality},
+  year = {2024},
+  abstract = {Large-scale fluid simulation is widely useful in various Virtual Reality (VR) applications. While physics-based fluid animation holds the promise of generating highly realistic fluid details, it often imposes significant computational demands, particularly when simulating high-resolution fluid for VR. In this paper, we propose a novel foveated fluid simulation method that enhances both the visual quality and computational efficiency of physics-based fluid simulation in VR. To leverage the natural foveation feature of human vision, we divide the visible domain of the fluid simulation into foveal, peripheral, and boundary regions. Our foveated fluid system dynamically allocates computational resources, striking a balance between simulation accuracy and computational efficiency. We implement this approach using a multi-scale method. To evaluate the effectiveness of our approach, we have conducted subjective studies. Our findings show a significant reduction in computational resource requirements, resulting in a speedup of up to 2.27 times. It is crucial to note that our method preserves the visual quality of fluid animations at a level that is perceptually identical to full-resolution outcomes. Additionally, we investigate the impact of various metrics, including particle radius and viewing distance, on the visual effects of fluid animations. Our work provides new techniques and evaluations tailored to facilitate real-time foveated fluid simulation in VR, which can enhance the efficiency and realism of fluids in VR applications.},
+  website={http://dalab.se.sjtu.edu.cn/www/home/?page_id=6764},
+  preview={foveated-fluid-preview.jpg},
+  dimensions={true},
+  selected={true}
+}
+
+
 @article{wangwalking,
   abbr={WalkingDroplet},
   bibtex_show={true},
   author = {Wang, Hui and Xiao, Yuwei and Mao, Yankai and Xiong, Shiying and Yang, Xubo and Zhu, Bo},
   title = {A Two-Way Coupling Approach for Simulating Bouncing Droplets},
+  journal = {Preprint},
   year = {2023},
   abstract = {This paper presents a two-way coupling approach to simulate bouncing droplet phenomena by incorporating the lubricated thin aerodynamic gap between fluid volumes. At the heart of our framework lies a cut-cell representation of the thin air film between colliding liquid fluid volumes. The air pressures within the thin film, modeled using a reduced fluid model based on the lubrication theory, are coupled with the volumetric liquid pressures by the gradient across the liquid-air interfaces and solved in a monolithic two-way coupling system. Our method can accurately solve liquid-liquid interaction with air films without adaptive grid refinements, enabling accurate simulation of many novel surface-tension-driven phenomena such as droplet collisions, bouncing droplets, and promenading pairs.},
   website={/projects/walking-droplet},
@@ -32,7 +48,7 @@
   url = {https://doi.org/10.1145/3386569.3392487},
   doi = {10.1145/3386569.3392487},
   abstract = {We propose a new Eulerian-Lagrangian approach to simulate the various surface tension phenomena characterized by volume, thin sheets, thin filaments, and points using Moving-Least-Squares (MLS) particles. At the center of our approach is a meshless Lagrangian description of the different types of codimensional geometries and their transitions using an MLS approximation. In particular, we differentiate the codimension-1 and codimension-2 geometries on Lagrangian MLS particles to precisely describe the evolution of thin sheets and filaments, and we discretize the codimension-0 operators on a background Cartesian grid for efficient volumetric processing. Physical forces including surface tension and pressure across different codimensions are coupled in a monolithic manner by solving one single linear system to evolve the surface-tension driven Navier-Stokes system in a complex non-manifold space. The codimensional transitions are handled explicitly by tracking a codimension number stored on each particle, which replaces the tedious meshing operators in a conventional mesh-based approach. Using the proposed framework, we simulate a broad array of visually appealing surface tension phenomena, including the fluid chain, bell, polygon, catenoid, and dripping, to demonstrate the efficacy of our approach in capturing the complex fluid characteristics with mixed codimensions, in a robust, versatile, and connectivity-free manner.},
-  journal = {ACM Trans. Graph.},
+  journal = {ACM Trans. Graph. (Siggraph)},
   month = {aug},
   articleno = {42},
   numpages = {16},
@@ -50,7 +66,7 @@
   title={A Novel CNN-Based Poisson Solver for Fluid Simulation}, 
   author={Xiao, Xiangyun and Zhou, Yanqing and Wang, Hui and Yang, Xubo},
   abstract={Solving a large-scale Poisson system is computationally expensive for most of the Eulerian fluid simulation applications. We propose a novel machine learning-based approach to accelerate this process. At the heart of our approach is a deep convolutional neural network (CNN), with the capability of predicting the solution (pressure) of a Poisson system given the discretization structure and the intermediate velocities as input. Our system consists of four main components, namely, a deep neural network to solve the large linear equations, a geometric structure to describe the spatial hierarchies of the input vector, a Principal Component Analysis (PCA) process to reduce the dimension of input in training, and a novel loss function to control the incompressibility constraint. We have demonstrated the efficacy of our approach by simulating a variety of high-resolution smoke and liquid phenomena. In particular, we have shown that our approach accelerates the projection step in a conventional Eulerian fluid simulator by two orders of magnitude. In addition, we have also demonstrated the generality of our approach by producing a diversity of animations deviating from the original datasets.},
-  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  journal={IEEE Trans. Vis. Comput. Graph.}, 
   year={2020},
   volume={26},
   number={3},
@@ -69,7 +85,7 @@
   title={A CNN-based Flow Correction Method for Fast Preview}, 
   author={Xiao, Xiangyun and Wang, Hui and Yang, Xubo},
   abstract={Abstract Eulerian-based smoke simulations are sensitive to the initial parameters and grid resolutions. Due to the numerical dissipation on different levels of the grid and the nonlinearity of the governing equations, the differences in simulation resolutions will result in different results. This makes it challenging for artists to preview the animation results based on low-resolution simulations. In this paper, we propose a learning-based flow correction method for fast previewing based on low-resolution smoke simulations. The main components of our approach lie in a deep convolutional neural network, a grid-layer feature vector and a special loss function. We provide a novel matching model to represent the relationship between low-resolution and high-resolution smoke simulations and correct the overall shape of a low-resolution simulation to closely follow the shape of a high-resolution down-sampled version. We introduce the grid-layer concept to effectively represent the 3D fluid shape, which can also reduce the input and output dimensions. We design a special loss function for the fluid divergence-free constraint in the neural network training process. We have demonstrated the efficacy and the generality of our approach by simulating a diversity of animations deviating from the original training set. In addition, we have integrated our approach into an existing fluid simulation framework to showcase its wide applications.},
-  journal = {Computer Graphics Forum},
+  journal = {Comput. Graph. Forum (Eurographics)},
   volume = {38},
   number = {2},
   pages = {431-440},
