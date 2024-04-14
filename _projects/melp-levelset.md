@@ -34,10 +34,10 @@ category: research
   .after figcaption {
     background: #fff;
     border: 1px solid #c0c0c0;
-    border-radius: 12px;
+    border-radius: 2px;
     color: #2e3452;
     opacity: 0.8;
-    padding: 12px;
+    padding: 2px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -53,13 +53,25 @@ category: research
   }
 </style>
 
-<img-comparison-slider hover="hover">
+<img-comparison-slider  style="width: 49%" hover="hover">
   <figure slot="first" class="before">
     <img width="100%" src="/assets/img/melp-levelset/double_bubble.render.0400.jpg">
     <figcaption>Render</figcaption>
   </figure>
   <figure slot="second" class="after">
     <img width="100%" src="/assets/img/melp-levelset/double_bubble.el.0400.jpg">
+    <figcaption>Particle</figcaption>
+  </figure>
+</img-comparison-slider>
+
+
+<img-comparison-slider hover="hover">
+  <figure style="width: 49%" slot="first" class="before">
+    <img width="100%" src="/assets/img/melp-levelset/in_and_out.render.0250.jpg">
+    <figcaption>Render</figcaption>
+  </figure>
+  <figure style="width: 49%" slot="second" class="after">
+    <img width="100%" src="/assets/img/melp-levelset/in_and_out.el.0250.jpg">
     <figcaption>Particle</figcaption>
   </figure>
 </img-comparison-slider>
