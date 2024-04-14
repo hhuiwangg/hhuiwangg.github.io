@@ -14,37 +14,17 @@ category: research
 
 <br>
 
-<div id="one" class="bal-container">
-    <div class="bal-after">
-        <img src="assets/img/melp-levelset/double_bubble.el.0400.jpg">
-        <div class="bal-afterPosition afterLabel">
-            After
-        </div>
-    </div>
-    <div class="bal-before">
-        <div class="bal-before-inset">
-            <img src="assets/img/melp-levelset/double_bubble.render.0400.jpg">
-            <div class="bal-beforePosition beforeLabel">
-                Before
-            </div>
-        </div>
-    </div>
-    <div class="bal-handle">
-        <span class=" handle-left-arrow"></span>
-        <span class="handle-right-arrow"></span>
-    </div>
-</div>
 
-<script src="js/script.js"></script>
+<script
+  defer
+  src="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/index.js"
+></script>
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/img-comparison-slider@8/dist/styles.css"
+/>
 
-<script>
-    new BeforeAfter({
-        id: '#one'
-    });
-    new BeforeAfter({
-        id: '#two'
-    });
-    new BeforeAfter({
-        id: '#three'
-    });
-</script>
+<img-comparison-slider>
+  <img slot="first" src="assets/img/melp-levelset/double_bubble.el.0400.jpg" />
+  <img slot="second" src="assets/img/melp-levelset/double_bubble.render.0400.jpg" />
+</img-comparison-slider>
