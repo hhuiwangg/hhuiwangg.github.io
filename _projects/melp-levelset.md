@@ -25,32 +25,32 @@ category: research
 />
 
 <style>
-  .before,
-  .after {
-    margin: 0;
-  }
+    .before,
+    .after {
+        margin: 0;
+    }
 
-  .before figcaption,
-  .after figcaption {
-    background: #fff;
-    border: 1px solid #c0c0c0;
-    border-radius: 2px;
-    color: #2e3452;
-    opacity: 0.8;
-    padding: 2px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    line-height: 100%;
-  }
+    .before figcaption, .after figcaption {
+        background: #121212;
+        border-radius: 0.2rem;
+        color: #ffffff;
+        opacity: 0.9;
+        padding: 2px 10px;
+        margin: 1rem;
+        font-size: 1em;
+    }
 
-  .before figcaption {
-    left: 12px;
-  }
+    .before figcaption {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
 
-  .after figcaption {
-    right: 12px;
-  }
+    .after figcaption {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+    }
 </style>
 
 

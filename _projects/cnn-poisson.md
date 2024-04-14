@@ -9,7 +9,7 @@ related_publications: xiao2020novel
 ---
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0" style="text-align: center">
         {% include figure.html path="assets/img/cnn-poisson/representative.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
