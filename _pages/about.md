@@ -4,10 +4,10 @@ title: about
 permalink: /
 subtitle: wanghehv@sjtu.edu.cn
 
-# profile:
-#   align: right
-#   image: prof_pic.jpg
-#   image_circular: false # crops the image to make it circular
+profile:
+  align: right
+  image: me.jpg
+  image_circular: false # crops the image to make it circular
 #   more_info: >
 #     <p>5405, School of Software</p>
 #     <p>Shanghai Jiao Tong University</p>
@@ -19,7 +19,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a third-year Ph.D. student at Shanghai Jiao Tong University, supervised by [Xubo Yang](http://dalab.se.sjtu.edu.cn/www/home/?page_id=143) in [Digital ART Laboratory](http://dalab.se.sjtu.edu.cn/), School of Software. My research interests include computer graphics, physics-based animation and neural representation. 
+I am a third-year Ph.D. student at Shanghai Jiao Tong University, supervised by [Xubo Yang](http://dalab.se.sjtu.edu.cn/www/home/?page_id=143) in [Digital ART Laboratory](http://dalab.se.sjtu.edu.cn/), School of Software. My research interests include computer graphics, physics-based animation and learning-based methods. 
 
 Prior to starting my PhD, I received my master's degree in 2021 and bachelor's degree in 2018 both at Shanghai Jiao Tong University.
 
