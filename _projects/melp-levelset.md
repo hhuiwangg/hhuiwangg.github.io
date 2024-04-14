@@ -30,7 +30,8 @@ category: research
         margin: 0;
     }
 
-    .before figcaption, .after figcaption {
+
+    .before figcaption {
         background: #121212;
         border-radius: 0.2rem;
         color: #ffffff;
@@ -38,15 +39,19 @@ category: research
         padding: 2px 10px;
         margin: 1rem;
         font-size: 1em;
-    }
-
-    .before figcaption {
         position: absolute;
         left: 0;
         bottom: 0;
     }
 
     .after figcaption {
+        background: #121212;
+        border-radius: 0.2rem;
+        color: #ffffff;
+        opacity: 0.9;
+        padding: 2px 10px;
+        margin: 1rem;
+        font-size: 1em;
         position: absolute;
         right: 0;
         bottom: 0;
