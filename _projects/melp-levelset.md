@@ -53,6 +53,18 @@ category: research
   }
 </style>
 
+
+<img-comparison-slider  style="width: 49%" hover="hover">
+  <figure slot="first" class="before">
+    <img width="100%" src="/assets/img/melp-levelset/water_on_bubble.rendered_seq.0100.jpg">
+    <figcaption>Render</figcaption>
+  </figure>
+  <figure slot="second" class="after">
+    <img width="100%" src="/assets/img/melp-levelset/water_on_bubble_mesh_particle.mantra1.0400.jpg">
+    <figcaption>Mesh</figcaption>
+  </figure>
+</img-comparison-slider>
+
 <img-comparison-slider  style="width: 49%" hover="hover">
   <figure slot="first" class="before">
     <img width="100%" src="/assets/img/melp-levelset/double_bubble.render.0400.jpg">
@@ -64,14 +76,50 @@ category: research
   </figure>
 </img-comparison-slider>
 
+<br>
 
-<img-comparison-slider hover="hover">
-  <figure style="width: 49%" slot="first" class="before">
+<img-comparison-slider  style="width: 49%" hover="hover">
+  <figure slot="first" class="before">
+    <img width="100%" src="/assets/img/melp-levelset/bubble_life.render.0180.jpg">
+    <figcaption>Render</figcaption>
+  </figure>
+  <figure slot="second" class="after">
+    <img width="100%" src="/assets/img/melp-levelset/bubble_life.particle.0180.jpg">
+    <figcaption>Particle</figcaption>
+  </figure>
+</img-comparison-slider>
+
+<img-comparison-slider  style="width: 49%" hover="hover">
+  <figure slot="first" class="before">
     <img width="100%" src="/assets/img/melp-levelset/in_and_out.render.0250.jpg">
     <figcaption>Render</figcaption>
   </figure>
-  <figure style="width: 49%" slot="second" class="after">
+  <figure slot="second" class="after">
     <img width="100%" src="/assets/img/melp-levelset/in_and_out.el.0250.jpg">
     <figcaption>Particle</figcaption>
+  </figure>
+</img-comparison-slider>
+
+<br>
+
+<img-comparison-slider  style="width: 49%" hover="hover">
+  <figure slot="first" class="before">
+    <img width="100%" src="/assets/img/melp-levelset/four_bubbles.render.0500.jpg">
+    <figcaption>Render</figcaption>
+  </figure>
+  <figure slot="second" class="after">
+    <img width="100%" src="/assets/img/melp-levelset/four_bubbles.particle.0500.jpg">
+    <figcaption>Particle</figcaption>
+  </figure>
+</img-comparison-slider>
+
+<img-comparison-slider  style="width: 49%" hover="hover">
+  <figure slot="first" class="before">
+    <img width="100%" src="/assets/img/melp-levelset/bubble_arise.render.0120.jpg">
+    <figcaption>Render</figcaption>
+  </figure>
+  <figure slot="second" class="after">
+    <img width="100%" src="/assets/img/melp-levelset/bubble_arise.mesh.0120.jpg">
+    <figcaption>Mesh</figcaption>
   </figure>
 </img-comparison-slider>
