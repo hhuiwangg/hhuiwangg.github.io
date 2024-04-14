@@ -8,16 +8,25 @@ profile:
   align: right
   image: me.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>5405, School of Software</p>
-    <p>Shanghai Jiao Tong University</p>
-    <p>Shanghai, China</p>
+#   more_info: >
+#     <p>5405, School of Software</p>
+#     <p>Shanghai Jiao Tong University</p>
+#     <p>Shanghai, China</p>
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+
+I am a third-year Ph.D. student at Shanghai Jiao Tong University, supervised by [Xubo Yang](http://dalab.se.sjtu.edu.cn/www/home/?page_id=143) in [Digital ART Laboratory](http://dalab.se.sjtu.edu.cn/), School of Software. My research interests include computer graphics, physics-based animation and learning-based method. 
+
+Prior to starting my PhD, I received my master's degree in 2021 and bachelor's degree in 2018 both at Shanghai Jiao Tong University.
+
+
+I am a third-year Ph.D. student at Shanghai Jiao Tong University, supervised by [Xubo Yang](http://dalab.se.sjtu.edu.cn/www/home/?page_id=143) in [Digital ART Laboratory](http://dalab.se.sjtu.edu.cn/), School of Software. My research interests include computer graphics, physics-based animation and learning-based method. 
+
+Prior to starting my PhD, I received my master's degree in 2021 and bachelor's degree in 2018 both at Shanghai Jiao Tong University.
 
 I am a third-year Ph.D. student at Shanghai Jiao Tong University, supervised by [Xubo Yang](http://dalab.se.sjtu.edu.cn/www/home/?page_id=143) in [Digital ART Laboratory](http://dalab.se.sjtu.edu.cn/), School of Software. My research interests include computer graphics, physics-based animation and learning-based method. 
 
