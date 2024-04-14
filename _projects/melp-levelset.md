@@ -25,11 +25,13 @@ category: research
 />
 
 <style>
-    .before,
-    .after {
+    .before{
         margin: 0;
     }
 
+    .after {
+        margin: 0;
+    }
 
     .before figcaption {
         background: #121212;
