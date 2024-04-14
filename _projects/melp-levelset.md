@@ -44,6 +44,7 @@ category: research
         position: absolute;
         left: 0;
         bottom: 0;
+        line-height: normal;
     }
 
     .after figcaption {
@@ -57,6 +58,7 @@ category: research
         position: absolute;
         right: 0;
         bottom: 0;
+        line-height: normal;
     }
 </style>
 
