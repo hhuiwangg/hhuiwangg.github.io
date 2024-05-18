@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Walking Droplet Simulation
+title: A Two-Way Coupling Approach for Simulating Bouncing Droplets
 description: A two-way coupling cut-cell approach to simulate bouncing droplet phenomena by incorporating the lubricated thin aerodynamic gap between fluid volumes
 img: assets/img/publication_preview/walking-droplet-preview.jpg
 importance: 1

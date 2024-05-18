@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MELP Level Set
+title: A Moving Least-Squares/Level-Set Particle Method for Bubble and Foam Simulation
 description: A novel particle-grid scheme for simulating intricate bubble and foam flow, with MLS particles serving as interfacial trackers and surfacial discretization, enables solving both volumetric air-liquid flow and surface surfactant flow simultaneously
 img: assets/img/publication_preview/melp-levelset-preview.jpg
 importance: 1
@@ -17,6 +17,7 @@ related_publications: wang2024moving
 <br>
 
 ### Abstract
+----
 
 We present a novel particle-grid scheme for simulating bubble and foam flow. At the core of our approach lies a particle representation that combines the computational nature of moving least-squares particles and particle level-set methods. Specifically, we assign a dedicated particle system to each individual bubble, enabling accurate tracking of its interface evolution and topological changes in a foaming fluid system. The particles within each bubble's particle system serve dual purposes. Firstly, they function as a surface discretization, allowing for the solution of surfactant flow physics on the bubble's membrane. Additionally, these particles act as interface trackers, facilitating the evolution of the bubble's shape and topology within the multiphase fluid domain. The combination of particle systems from all bubbles contributes to the generation of an unsigned level-set field, further enhancing the simulation of coupled multiphase flow dynamics. By seamlessly integrating our particle representation into a multiphase, volumetric flow solver, our method enables the simulation of a broad range of intricate bubble and foam phenomena. These phenomena exhibit highly dynamic and complex structural evolution, as well as interfacial flow details.
 
@@ -70,6 +71,7 @@ We present a novel particle-grid scheme for simulating bubble and foam flow. At 
 </style>
 
 ### Results (Rendered vs Underlying discretization)
+----
 
 #### Jet on bubbles | Double bubbles
 
@@ -147,10 +149,17 @@ We present a novel particle-grid scheme for simulating bubble and foam flow. At 
   </figure>
 </img-comparison-slider>
 
-### Video
+<br>
+<br>
 
-[Coming Soon]
+### Video
+----
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1tWclARBiHY" allowfullscreen></iframe>
+</div>
+
+<br>
 
 ### Links
-
-[Coming Soon]
+----
+[[Youtube]](https://www.youtube.com/watch?v=1tWclARBiHY)

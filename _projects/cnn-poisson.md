@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CNN Poisson Solver
+title: A Novel CNN-Based Poisson Solver for Fluid Simulation
 description: A CNN-based Poisson solver to accelerate fluid simulation
 img: assets/img/publication_preview/cnn-poisson-preview.png
 importance: 1

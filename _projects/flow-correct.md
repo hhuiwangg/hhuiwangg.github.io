@@ -1,6 +1,6 @@
 ---
 layout: page
-title: CNN Flow Correction
+title: A CNN-based Flow Correction Method for Fast Preview
 description: A CNN-based method to correct the overall shape of a low-resolution simulation to closely follow the shape of the high-resolution version
 img: assets/img/publication_preview/flow-correct-preview.jpg
 importance: 1
