@@ -70,7 +70,7 @@ We present a novel particle-grid scheme for simulating bubble and foam flow. At 
     }
 </style>
 
-### Results (Rendered vs Underlying discretization)
+### Results
 ----
 
 #### Jet on bubbles | Double bubbles
@@ -158,6 +158,7 @@ We present a novel particle-grid scheme for simulating bubble and foam flow. At 
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1tWclARBiHY" allowfullscreen></iframe>
 </div>
 
+<br>
 <br>
 
 ### Links
