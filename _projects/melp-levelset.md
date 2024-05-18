@@ -164,3 +164,7 @@ We present a novel particle-grid scheme for simulating bubble and foam flow. At 
 ### Links
 ----
 [[Youtube]](https://www.youtube.com/watch?v=1tWclARBiHY)
+[[Paper (Coming soon)]]()
+
+<br>
+<br>
