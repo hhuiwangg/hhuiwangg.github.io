@@ -163,6 +163,7 @@ We present a novel particle-grid scheme for simulating bubble and foam flow. At 
 
 ### Links
 ----
+[[DOI]](https://ieeexplore.ieee.org/document/10536666)
 [[Youtube]](https://www.youtube.com/watch?v=1tWclARBiHY)
 [[Preprint]](/assets/pdf/mlsls_main.pdf)
 [[Preprint (Compressed)]](/assets/pdf/mlsls_compressed.pdf)
@@ -170,3 +171,19 @@ We present a novel particle-grid scheme for simulating bubble and foam flow. At 
 
 <br>
 <br>
+
+### Bibtex
+
+<pre>
+@articl{10536666,
+  author={Wang, Hui and Wang, Zhi and Hong, Shulin and Yang, Xubo and Zhu, Bo},
+  journal={IEEE Transactions on Visualization and Computer Graphics}, 
+  title={A Moving Least-Squares/Level-Set Particle Method for Bubble and Foam Simulation}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-15},
+  keywords={Fluids;Surfactants;Surface tension;Mathematical models;Liquids;Level set;Geometry;Level set;interface tracking;particle methods;moving least-squares;multiphase fluid;surface tension},
+  doi={10.1109/TVCG.2024.3404151}
+}
+</pre>
