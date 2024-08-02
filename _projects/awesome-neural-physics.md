@@ -16,6 +16,6 @@ category: research
 <!-- Simply set the `src` attribute to your MD file and win -->
 <!-- <zero-md src="https://raw.githubusercontent.com/awesome-physics/awesome-neural-physics/main/README.md"></zero-md> -->
 
-{% include_relative https://raw.githubusercontent.com/awesome-physics/awesome-neural-physics/main/README.md %}
+{% remote_include https://raw.githubusercontent.com/awesome-physics/awesome-neural-physics/main/README.md %}
 
 <br>
