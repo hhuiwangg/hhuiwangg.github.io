@@ -33,15 +33,16 @@ This paper presents a two-way coupling approach to simulate bouncing droplet phe
 
 ### Links
 
-[[Preprint on SSRN]](http://ssrn.com/abstract=4579924)
-[[Preprint with arxiv template]](/assets/pdf/Walking_Droplet___Arxiv.pdf)
+<!-- [[Preprint on SSRN]](http://ssrn.com/abstract=4579924)
+[[Preprint with arxiv template]](/assets/pdf/Walking_Droplet___Arxiv.pdf) -->
+[Preprint coming soon]
 [[Youtube]](https://www.youtube.com/watch?v=WxcVmrmByVU)
 
 <br>
 
-### Citation
+<!-- ### Citation
 
 <pre>
 Wang, Hui and Xiao, Yuwei and Mao, Yankai and Xiong, Shiying and Yang, Xubo and Zhu, Bo, A Two-Way Coupling Approach for Simulating Bouncing Droplets. 
 Available at SSRN: https://ssrn.com/abstract=4579924 or http://dx.doi.org/10.2139/ssrn.4579924
-</pre>
+</pre> -->
