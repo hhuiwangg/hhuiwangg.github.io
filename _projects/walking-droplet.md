@@ -5,7 +5,7 @@ description: A two-way coupling cut-cell approach to simulate bouncing droplet p
 img: assets/img/publication_preview/walking-droplet-preview.jpg
 importance: 1
 category: research
-related_publications: wangwalking
+related_publications: wang2024walking
 ---
 
 <div class="row">
