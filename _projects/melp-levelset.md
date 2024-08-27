@@ -70,6 +70,50 @@ We present a novel particle-grid scheme for simulating bubble and foam flow. At 
     }
 </style>
 
+### Method Overview
+----
+
+<img src="/assets/img/melp-levelset/illustration.jpg" alt="Domains" width="100%" height="auto">
+
+<p style="text-align: center;"><b>
+Illustration of domains
+</b></p>
+
+Left: The entire domain is divided into multiple volumetric regions Ωi and the their interfaces ∂Ωi. The interfaces are treated as thin films, characterized by the local frame $$R = [\bm{e}_1, \bm{n}]$$ in 2D ($$R = [\bm{e}_1, \bm{e}_2, \bm{n}]$$ in 3D) and thickness η, where the interfacial flow is solved.
+Right: The illustration of our MLSLS particle system. Our MLSLS particle system includes two major components: a set of MLSLS particles $$\mathcal{E}$$ and a background grid $$\mathcal{G}$$. 
+(1) The particles $$\mathcal{E}$$ are divided into multiple groups $$\mathcal{E}_i$$ to track the surface of each region $$\Omega_i$$. 
+(2) On the background grid $$\mathcal{G}$$, we represent the implicit surface with a indicator map $$\Chi_\mathcal{G}$$  and a global level set $$\phi_\mathcal{G}$$. A velocity field $$u_\mathcal{G}$$ is stored on the staggered grid. An extra set of Lagrangian particles $$\mathcal{L}$$ is introduced on the interface to track the interfacial flow across different regions.
+
+<br>
+
+<img src="/assets/img/melp-levelset/mpls_evo.jpg" alt="MLSLS particle evolution" width="100%" height="auto">
+
+<p style="text-align: center;"><b>
+The process of geometric evolution of our MLSLS particles system
+</b></p>
+
+(1) Advect MLSLS particles $$\mathcal{E}$$ using the velocity field $$u_\mathcal{G}$$; 
+(2) Reconstruct the level-set-based implicit interfaces on the grid $$\mathcal{G}$$ using local MLS surfaces approximated on $$\mathcal{E}$$; 
+(3) Correct particles $$\mathcal{E}$$ based on the grid $$\mathcal{G}$$ to achieve consistent interface representation between grid and particle and a optimal distribution; 
+(4) Handle topological changes between regions including splitting and merging.
+
+<br>
+
+
+<img src="/assets/img/melp-levelset/tan_flow.jpg" alt="Interfacial flow simulation" width="100%" height="auto">
+
+<p style="text-align: center;"><b>
+The process of interfacial flow simulation
+</b></p>
+
+(1) Redistribute MLSLS particles $$\mathcal{E}$$ within each region; 
+(2) Transfer physical quantities from Lagrangian particles $$\mathcal{L}$$ to MLSLS particles $$\mathcal{E}$$ in their closest two regions; 
+(3) Compute interfacial geometry; 
+(4) Solve tangential dynamics within each region separately; 
+(5) Transfer quantities from MLSLS particles $$\mathcal{E}$$ to Lagrangian particles $$\mathcal{L}$$.
+
+<br>
+
 ### Results
 ----
 
