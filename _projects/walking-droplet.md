@@ -33,9 +33,8 @@ This paper presents a two-way coupling approach to simulate bouncing droplet phe
 
 ### Links
 
-<!-- [[Preprint on SSRN]](http://ssrn.com/abstract=4579924)
-[[Preprint with arxiv template]](/assets/pdf/Walking_Droplet___Arxiv.pdf) -->
-[Preprint coming soon]
+<!-- [[Preprint on SSRN]](http://ssrn.com/abstract=4579924) -->
+[[Preprint]](/assets/pdf/walking_droplet_ijnme_pre.pdf)
 [[Youtube]](https://www.youtube.com/watch?v=WxcVmrmByVU)
 
 <br>
