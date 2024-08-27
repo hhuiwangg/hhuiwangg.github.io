@@ -79,7 +79,7 @@ We present a novel particle-grid scheme for simulating bubble and foam flow. At 
 Illustration of domains
 </b></p>
 
-Left: The entire domain is divided into multiple volumetric regions Ωi and the their interfaces ∂Ωi. The interfaces are treated as thin films, characterized by the local frame $$R = [\bm{e}_1, \bm{n}]$$ in 2D ($$R = [\bm{e}_1, \bm{e}_2, \bm{n}]$$ in 3D) and thickness η, where the interfacial flow is solved.
+Left: The entire domain is divided into multiple volumetric regions $$\Omega_i$$ and the their interfaces $$\partial \Omega_i$$. The interfaces are treated as thin films, characterized by the local frame $$R = [{e}_1, {n}]$$ in 2D ($$R = [{e}_1, {e}_2, {n}]$$ in 3D) and thickness η, where the interfacial flow is solved.
 Right: The illustration of our MLSLS particle system. Our MLSLS particle system includes two major components: a set of MLSLS particles $$\mathcal{E}$$ and a background grid $$\mathcal{G}$$. 
 (1) The particles $$\mathcal{E}$$ are divided into multiple groups $$\mathcal{E}_i$$ to track the surface of each region $$\Omega_i$$. 
 (2) On the background grid $$\mathcal{G}$$, we represent the implicit surface with a indicator map $$\Chi_\mathcal{G}$$  and a global level set $$\phi_\mathcal{G}$$. A velocity field $$u_\mathcal{G}$$ is stored on the staggered grid. An extra set of Lagrangian particles $$\mathcal{L}$$ is introduced on the interface to track the interfacial flow across different regions.
