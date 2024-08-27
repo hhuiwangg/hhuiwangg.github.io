@@ -17,12 +17,14 @@ related_publications: wang2024walking
 <br>
 
 ### Abstract
+----
 
 This paper presents a two-way coupling approach to simulate bouncing droplet phenomena by incorporating the lubricated thin aerodynamic gap between fluid volumes. At the heart of our framework lies a cut-cell representation of the thin air film between colliding liquid fluid volumes. The air pressures within the thin film, modeled using a reduced fluid model based on the lubrication theory, are coupled with the volumetric liquid pressures by the gradient across the liquid-air interfaces and solved in a monolithic two-way coupling system. Our method can accurately solve liquid-liquid interaction with air films without adaptive grid refinements, enabling accurate simulation of many novel surface-tension-driven phenomena such as droplet collisions, bouncing droplets, and promenading pairs.
 
 <br>
 
 ### Video
+----
 
 <div class="embed-responsive embed-responsive-16by9">
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WxcVmrmByVU?si=fm79BnCM6AcivJTh" allowfullscreen></iframe>
@@ -31,6 +33,7 @@ This paper presents a two-way coupling approach to simulate bouncing droplet phe
 <br>
 
 ### Overview
+----
 
 <style>
     .grid-container {
@@ -71,6 +74,9 @@ Discretization of the liquid level set, velocity, and pressure
 We split the liquid domain into multiple liquid regions $$(\Omega_{1,1}, \Omega_{1,2}, ...)$$. Left and Right: Each region has its own node-based level set $$\phi$$ (black dots) and face-based velocity field $$u$$ (solid arrows). The interfaces $$\partial\Omega_1$$ are discretized into the cut-cell mesh (blue segments) by performing the marching cubes algorithm on level sets. The velocity fields are sampled on grid faces (solid arrows) and extrapolated (dashed arrows). Middle: When coupling fluid regions with the air film (green), the normal velocities on the cut faces (dashed arrows) are interpolated from the grid faces. The pressure samples (blue dots) in the cut-cell are repositioned on the same iso-distance (blue dotted lines) parallel to the interface, following [70].
 
 <br>
+
+### Results
+----
 
 <img src="/assets/img/walking-droplet/binary_all.jpg" alt="" width="100%" height="auto">
 
@@ -130,6 +136,7 @@ A large droplet falls and merges with the bath, which causes a thin liquid colum
 <br>
 
 ### Links
+----
 
 <!-- [[Preprint on SSRN]](http://ssrn.com/abstract=4579924) -->
 [[Preprint]](/assets/pdf/walking_droplet_ijnme_pre.pdf)
