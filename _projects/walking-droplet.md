@@ -28,6 +28,73 @@ This paper presents a two-way coupling approach to simulate bouncing droplet phe
   <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/WxcVmrmByVU?si=fm79BnCM6AcivJTh" allowfullscreen></iframe>
 </div>
 
+<br>
+
+### Overview
+
+<style>
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        /* grid-gap: 10px;  */
+    }
+
+    .grid-item {
+        /* background-color: #ccc; */
+        /* text-align: center;
+        font-size: 20px;
+        padding: 20px; */
+    }
+    .item1 { grid-column: span 2; grid-row: span 2; }
+    .item2 { grid-column: span 2; grid-row: span 2; }
+    .item3 { grid-column: span 2; grid-row: span 1; }
+    .item4 { grid-column: span 2; grid-row: span 1; }
+    /* .item5 { grid-column: span 2; grid-row: span 1; } */
+</style>
+
+<img src="assets/img/walking-droplet/domains.jpg" alt="Domains" width="100%" height="auto">
+
+Illustration of fluid domains and interfaces. The entire computational domain is divided into three domains. $$\Omega_1$$ is liquid, $$\Omega_2$$ is the thin air film, and $$\Omega_3$$ is ambient air. We show examples of the domain evolution at $$t = \{0, t_1, t_2\}$$. 
+
+<img src="assets/img/walking-droplet/liquid_grid.jpg" alt="Grids" width="100%" height="auto">
+
+Discretization of the liquid level set, velocity, and pressure. We split the liquid domain into multiple liquid
+regions $$(\Omega_{1,1}, \Omega_{1,2}, ...)$$. Left and Right: Each region has its own node-based level set $$\phi$$ (black dots) and face-based velocity field $$u$$ (solid arrows). The interfaces ∂Ω1 are discretized into the cut-cell mesh (blue segments) by performing the marching cubes algorithm on level sets. The velocity fields are sampled on grid faces (solid arrows) and extrapolated (dashed arrows). Middle: When coupling fluid regions with the air film (green), the normal velocities on the cut faces (dashed arrows) are interpolated from the grid faces. The pressure samples (blue dots) in the cut-cell are repositioned on the same iso-distance (blue dotted lines) parallel to the interface, following [70].
+
+
+<img src="assets/img/walking-droplet/binary_all.jpg" alt="" width="100%" height="auto">
+
+Binary droplet collision. 
+Top and Bottom: Representative frames of the rendered images from our simulation and the experimental snapshots from [1]. Middle: The evolution of the $$x$$-axis positions of two droplets. The regions filled by the light color are the $$x$$-axis bounding box of two droplets. Solid lines denote the $$x$$-axis center position of two droplets
+
+<img src="assets/img/walking-droplet/bounce_trajectory.jpg" alt="" width="100%" height="auto">
+
+A droplet bouncing on a vibrating bath in (2, 1) mode. 
+Top: Rendered images of four representative frames. Bottom: Temporal evolution of the scene. The solid line denotes the movement of the droplet center, and the dashed line denotes the bath movement. 
+
+
+<div class="grid-container">
+    <div class="grid-item item1">
+        <img src="assets/img/walking-droplet/promenade_closer.png" alt="Promenading pair" width="100%" height="auto">
+    </div>
+    <div class="grid-item item2">
+        <img src="assets/img/walking-droplet/promenade_further.png" alt="Promenading pair" width="100%" height="auto">
+    </div>
+    <div class="grid-item item3">
+        <img src="assets/img/walking-droplet/promenading_dist.jpg" alt="Promenading pair dist" width="100%" height="auto">
+    </div>
+    <div class="grid-item item4">
+        <img src="assets/img/walking-droplet/promenading_pos.jpg" alt="Promenading pair pos" width="100%" height="auto">
+    </div>
+</div>
+
+The two droplets bounce on the vibrating bath and form the promenading pairs. 
+Left: Rendered result for Case I, where two droplets bounce and move away from each other. Middle: Rendered result for Case II, where the  droplets move towards each other. Right top: The droplet positions as a function of time $$t$$. The colored stripes indicate the $$x$$-axis bounding box of droplets. The solid lines represent the trajectories of the droplet centers. Right bottom: The droplet distances as a function of time $$t$$.
+
+<img src="assets/img/walking-droplet/merge_droplet.png" alt="" width="100%" height="auto">
+
+Droplet merging and pinching. 
+A large droplet falls and merges with the bath, which causes a thin liquid column to form due to the surface tension. The column eventually breaks off and pinches off a smaller droplet bouncing on the bath.
 
 <br>
 
