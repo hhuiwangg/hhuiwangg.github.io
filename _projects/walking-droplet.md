@@ -65,6 +65,19 @@ The entire computational domain is divided into three domains. $$\Omega_1$$ is l
 
 <br>
 
+<img src="/assets/img/walking-droplet/grid.jpg" alt="Grids" width="100%" height="auto">
+
+<p style="text-align: center;"><b>
+Discretization of liquids and the air film
+</b></p>
+
+The liquid domain $$\Omega_1$$ (blue) is divided into several separate
+liquid volumes on the Cartesian grid enhanced by cut-cells, with level set $$\phi$$, pressure $$p_1$$ and velocity $$u$$ sampled on
+nodes, cells, and faces. In the gap between liquid volumes, the air film $$\Omega_2$$ (green) is represented by single-layered
+irregular cells and the cut-cell meshes to solve pressure $$p_2$$.
+
+<br>
+
 <img src="/assets/img/walking-droplet/liquid_grid.jpg" alt="Grids" width="100%" height="auto">
 
 <p style="text-align: center;"><b>
