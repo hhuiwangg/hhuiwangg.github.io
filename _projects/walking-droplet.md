@@ -65,10 +65,10 @@ The entire computational domain is divided into three domains. $$\Omega_1$$ is l
 <img src="/assets/img/walking-droplet/liquid_grid.jpg" alt="Grids" width="100%" height="auto">
 
 <p style="text-align: center;"><b>
-Discretization of the liquid level set, velocity, and pressure. We split the liquid domain into multiple liquid
+Discretization of the liquid level set, velocity, and pressure
 </b></p>
 
-regions $$(\Omega_{1,1}, \Omega_{1,2}, ...)$$. Left and Right: Each region has its own node-based level set $$\phi$$ (black dots) and face-based velocity field $$u$$ (solid arrows). The interfaces $$\partial\Omega_1$$ are discretized into the cut-cell mesh (blue segments) by performing the marching cubes algorithm on level sets. The velocity fields are sampled on grid faces (solid arrows) and extrapolated (dashed arrows). Middle: When coupling fluid regions with the air film (green), the normal velocities on the cut faces (dashed arrows) are interpolated from the grid faces. The pressure samples (blue dots) in the cut-cell are repositioned on the same iso-distance (blue dotted lines) parallel to the interface, following [70].
+We split the liquid domain into multiple liquid regions $$(\Omega_{1,1}, \Omega_{1,2}, ...)$$. Left and Right: Each region has its own node-based level set $$\phi$$ (black dots) and face-based velocity field $$u$$ (solid arrows). The interfaces $$\partial\Omega_1$$ are discretized into the cut-cell mesh (blue segments) by performing the marching cubes algorithm on level sets. The velocity fields are sampled on grid faces (solid arrows) and extrapolated (dashed arrows). Middle: When coupling fluid regions with the air film (green), the normal velocities on the cut faces (dashed arrows) are interpolated from the grid faces. The pressure samples (blue dots) in the cut-cell are repositioned on the same iso-distance (blue dotted lines) parallel to the interface, following [70].
 
 <br>
 
