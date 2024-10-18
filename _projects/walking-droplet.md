@@ -152,8 +152,9 @@ A large droplet falls and merges with the bath, which causes a thin liquid colum
 ----
 
 <!-- [[Preprint on SSRN]](http://ssrn.com/abstract=4579924) -->
-[[Preprint]](/assets/pdf/walking_droplet_ijnme_pre.pdf)
-[[Preprint (Compressed)]](/assets/pdf/walking_droplet_ijnme_pre_compressed.pdf)
+<!-- [[Preprint]](/assets/pdf/walking_droplet_ijnme_pre.pdf)
+[[Preprint (Compressed)]](/assets/pdf/walking_droplet_ijnme_pre_compressed.pdf) -->
+[[URL]](https://onlinelibrary.wiley.com/doi/abs/10.1002/nme.7592)
 [[Youtube]](https://www.youtube.com/watch?v=WxcVmrmByVU)
 
 <br>
