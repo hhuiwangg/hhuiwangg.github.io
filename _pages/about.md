@@ -19,7 +19,9 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a fourth-year Ph.D. student at Shanghai Jiao Tong University, supervised by Prof. [Xubo Yang](http://dalab.se.sjtu.edu.cn/www/home/?page_id=143) in [Digital ART Laboratory](http://dalab.se.sjtu.edu.cn/), School of Software.  I also work closely with Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/) at Georgia Tech. My research interests include computer graphics, physics-based animation and learning-based method. 
+I am a fourth-year Ph.D. student at Shanghai Jiao Tong University, supervised by Prof. [Xubo Yang](http://dalab.se.sjtu.edu.cn/www/home/?page_id=143) in [Digital ART Laboratory](http://dalab.se.sjtu.edu.cn/), School of Software.  I also work closely with Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/) at Georgia Tech. My research interests include computer graphics, physics-based animation. 
+
+<!-- I am a fourth-year Ph.D. student at Shanghai Jiao Tong University, supervised by Prof. [Xubo Yang](http://dalab.se.sjtu.edu.cn/www/home/?page_id=143) in [Digital ART Laboratory](http://dalab.se.sjtu.edu.cn/), School of Software.  I also work closely with Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/) at Georgia Tech. My research interests include computer graphics, physics-based animation and learning-based method.  -->
 
 Prior to starting my PhD, I received my master's degree in 2021 and bachelor's degree in 2018 both at Shanghai Jiao Tong University.
 

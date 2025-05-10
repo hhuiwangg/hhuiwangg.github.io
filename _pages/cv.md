@@ -16,10 +16,10 @@ toc:
 * Ph.D in Computer Science, Shanghai Jiao Tong University, 2021.4-2025.4 (expected)
   * Research focus: physics-based animation for computer graphics
   * Advisor: Xubo Yang
-* M.S. in Software Engineering, Shanghai Jiao Tong University, 2018.9-2021.3
+* M.E. in Software Engineering, Shanghai Jiao Tong University, 2018.9-2021.3
   * Thesis title:  Particle-based Codimensional Fluid Simulation
   * Thesis advisor: Xubo Yang
-* B.S. in Software Engineering, Shanghai Jiao Tong University, 2014.9-2018.6
+* B.E. in Software Engineering, Shanghai Jiao Tong University, 2014.9-2018.6
   * Thesis title:  Study on the Optimization of Iterative Method for Fluid Simulation
   * Thesis advisor: Xubo Yang
 
