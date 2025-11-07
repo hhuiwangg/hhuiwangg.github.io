@@ -40,6 +40,10 @@ toc:
 * Xiangyun Xiao, **Hui Wang**, and Xubo Yang. A CNN-based Flow Correction Method for Fast Preview. Computer Graphics Forum (Eurographics), 2019.
 * Xiangyun Xiao, Yanqing Zhou, **Hui Wang**, and Xubo Yang. A Novel CNN-Based Poisson Solver for Fluid Simulation. IEEE Transactions on Visualization and Computer Graphics, 2020.
 
+**Survey:**
+* Lili Wang, Weiwei Xu, Yebin Liu, Miao Wang, Beibei Wang, Xubo Yang, Lan Xu, Zhangyao Tan, Runze Fan, Zijun Wang, Chi Wang, Hongwen Zhang, Yijian Wen, Haozhong Yang, Jian Wu, Jiahui Fan, **Hui Wang**, Qixuan Zhang, Guoping Wang, Yongtian Wang, Qinping Zhao. Artificial intelligence for virtual reality: a review. SCIENCE CHINA Information Sciences, 2025.
+* Qian Chen, Yue Wang, **Hui Wang**, Xubo Yang. Data-driven simulation in fluids animation: a survey. Virtual Reality \& Intelligent Hardware, 2021.
+
 **Thesis:**
 * **Hui Wang**. Particle-based Codimensional Fluid Simulation. M.E. Thesis, Shanghai Jiao Tong University, 2021
 
