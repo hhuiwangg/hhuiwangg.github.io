@@ -21,10 +21,9 @@ social: true  # includes social icons at the bottom of the page
 
 🚨 I am currently on the job market for a full-time position. Please feel free to reach out via [wanghehv@sjtu.edu.cn](wanghehv@sjtu.edu.cn).
 
-I am a final-year Ph.D. candidate at Shanghai Jiao Tong University, advised by Prof. [Xubo Yang](http://dalab.se.sjtu.edu.cn/www/home/?page_id=143) at [Digital ART Laboratory](http://dalab.se.sjtu.edu.cn/).  I also work closely with Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/) at Georgia Tech. 
+I am a final-year Ph.D. candidate at Shanghai Jiao Tong University, advised by Prof. [Xubo Yang](http://dalab.se.sjtu.edu.cn/www/home/?page_id=143) at [Digital ART Laboratory](http://dalab.se.sjtu.edu.cn/). I had the privilege of working closely with Prof. [Bo Zhu](https://faculty.cc.gatech.edu/~bozhu/) of Georgia Tech.
 
 My research interests include computer graphics, physics-based simulation, neural simulation, virtual reality and neuro-physical hybrid modeling.
-
 Prior to my Ph.D. journey, I earned my Master's and Bachelor's degrees from Shanghai Jiao Tong University.
 
 <!-- Specifically, my work traces the evolution of physical simulation paradigms: abstracting the real world into the digital space, and ultimately deploying it back to the physical reality.
