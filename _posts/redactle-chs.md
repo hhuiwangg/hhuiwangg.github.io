@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "Redactle-CHS: 汉字猜词挑战"
-description: "自动化语言解谜游戏。"
+title: Redactle-CHS
+date: 2026-03-24 12:00:00
+description: Redactle-CHS
 tags: misc
 categories: misc
-giscus_comments: true
-date: 2026-03-24
-featured: true
 ---
 
 <div class="l-page game-container">
