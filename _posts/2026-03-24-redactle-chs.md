@@ -16,6 +16,6 @@ categories: misc
     width="100%"
     style="border: none;"
   >
-    <p>您的浏览器不支持 iframe，请<a href="https://redactle-chs.streamlit.app/">点击此处</a>直接访问。</p>
+    <p>Your browser does not support iframes. Please <a href="https://redactle-chs.streamlit.app/">click here</a> to access the app directly.</p>
   </iframe>
 </div>
