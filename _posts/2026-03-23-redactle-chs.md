@@ -5,7 +5,7 @@ date: 2026-03-23 12:00:00
 description: Redactle-CHS
 tags: misc
 categories: misc
-featured: true
+featured: false
 ---
 
 <div class="l-page game-container">
