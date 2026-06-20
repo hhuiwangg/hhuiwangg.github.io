@@ -387,8 +387,7 @@ mathjax:
 third_party_libraries:
   polyfill:
     url:
-      js: "https://cdnjs.cloudflare.com/polyfill/v{{version}}/polyfill.min.js?features=es6"
-    version: "3"
+      js: "https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"
 masonry:
   version: "4.2.2"
   integrity: "sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
